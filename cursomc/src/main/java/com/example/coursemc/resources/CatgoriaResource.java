@@ -26,5 +26,4 @@ public class CatgoriaResource {
 		Categoria obj = service.buscar(id);
 		return ResponseEntity.ok().body(obj);
 	}
-
 }
