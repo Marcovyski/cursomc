@@ -1,0 +1,5 @@
+package com.example.coursemc.domain.enums;
+
+public enum TipoCliente {
+
+}

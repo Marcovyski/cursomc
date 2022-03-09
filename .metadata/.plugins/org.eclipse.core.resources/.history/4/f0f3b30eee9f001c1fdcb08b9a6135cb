@@ -1,0 +1,110 @@
+package com.example.coursemc.domain;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Objects;
+import java.util.Set;
+
+import com.example.coursemc.domain.enums.TipoCliente;
+
+public class Cliente {
+	
+	private Integer id;
+	private String name;
+	private String email;
+	private String cpaOuCnpj;
+	private TipoCliente tipo;
+	
+	private List<Endereco> enderecos = new ArrayList<>();
+		
+	private Set<String> Telefones = new HashSet<>();
+	
+	public Cliente() {
+	}
+
+	public Cliente(Integer id, String name, String email, String cpaOuCnpj, TipoCliente tipo) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.email = email;
+		this.cpaOuCnpj = cpaOuCnpj;
+		this.tipo = tipo;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getCpaOuCnpj() {
+		return cpaOuCnpj;
+	}
+
+	public void setCpaOuCnpj(String cpaOuCnpj) {
+		this.cpaOuCnpj = cpaOuCnpj;
+	}
+
+	public TipoCliente getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(TipoCliente tipo) {
+		this.tipo = tipo;
+	}
+
+	public List<Endereco> getEnderecos() {
+		return enderecos;
+	}
+
+	public void setEnderecos(List<Endereco> enderecos) {
+		this.enderecos = enderecos;
+	}
+
+	public Set<String> getTelefones() {
+		return Telefones;
+	}
+
+	public void setTelefones(Set<String> telefones) {
+		Telefones = telefones;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(id);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Cliente other = (Cliente) obj;
+		return Objects.equals(id, other.id);
+	}
+	
+	
+	
+}
