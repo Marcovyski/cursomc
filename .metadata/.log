@@ -1601,3 +1601,45 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:02:51.723
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uPUMDRbW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:57:38.539
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:57:38.605
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@31b4d529[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:57:38.605
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:57:44.711
+!MESSAGE Boot LS startup time from start to initialized: 6104ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:57:45.158
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HhFwCDfgisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:57:45.159
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:57:45.162
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:57:45.163
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:57:45.163
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:57:45.164
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HhFwCDfg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:57:45.171
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:57:45.175
+!MESSAGE buffering callback sts4.classpath.HhFwCDfg cursomc false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:57:45.175
+!MESSAGE executing callback sts4.classpath.HhFwCDfg 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 18:57:46.668
+!MESSAGE executing callback sts4.classpath.HhFwCDfg SUCCESS [done]
