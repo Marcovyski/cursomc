@@ -1,0 +1,9 @@
+package com.example.coursemc.domain;
+
+public class PagamentoComCartao extends Pagamento{
+	
+	private Integer numeroDeParcelas;
+	
+	
+
+}
