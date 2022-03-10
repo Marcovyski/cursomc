@@ -797,3 +797,57 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 15:35:04.990
 !MESSAGE executing callback sts4.classpath.GDoQZPbN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:22.958
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GDoQZPbN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:23.024
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.GDoQZPbN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:23.025
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:23.026
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GDoQZPbN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:40.725
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:40.726
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@31b4d529[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:40.727
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:45.164
+!MESSAGE Boot LS startup time from start to initialized: 4339ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:45.284
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lbkhdZwLisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:45.285
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:45.285
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:45.285
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:45.286
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:45.286
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lbkhdZwL => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:45.288
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:45.288
+!MESSAGE buffering callback sts4.classpath.lbkhdZwL cursomc false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:45.289
+!MESSAGE executing callback sts4.classpath.lbkhdZwL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-10 17:02:46.054
+!MESSAGE executing callback sts4.classpath.lbkhdZwL SUCCESS [done]
