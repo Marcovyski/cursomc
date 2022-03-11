@@ -1,0 +1,5 @@
+package com.example.coursemc.services.exceptions;
+
+public class DataIntegretyException {
+
+}
