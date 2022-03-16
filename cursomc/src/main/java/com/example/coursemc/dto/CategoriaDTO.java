@@ -2,10 +2,10 @@ package com.example.coursemc.dto;
 
 import java.io.Serializable;
 
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 
 import org.hibernate.validator.constraints.Length;
-
 import com.example.coursemc.domain.Categoria;
 
 
@@ -14,10 +14,14 @@ public class CategoriaDTO implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	private Integer id;
-	@NotEmpty(message="Preenchimento obrigat[orio")
-	@Length(min=5, max=80, message="O nome tem que ter entre 5 e 80 caracteres")
 	
+	@NotEmpty(message="Preenchimento obrigatorio")
+	@Length(min=5, max=80, message="O nome tem que ter entre 5 e 80 caracteres")
 	private String nome;
+	
+	@NotEmpty(message="Preenchimento obrigatorio")
+	@Email(message="e-Mail invalido!")
+	private String email;
 	
 	public CategoriaDTO() {
 	}
@@ -42,6 +46,5 @@ public class CategoriaDTO implements Serializable{
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	
 
 }

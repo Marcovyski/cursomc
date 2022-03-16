@@ -41,10 +41,7 @@ public class Cliente implements Serializable {
 	@JsonIgnore
 	@OneToMany(mappedBy="cliente")
 	private List<Pedido> pedidos = new ArrayList<>();
-	
-	
-	
-	
+
 	public Cliente() {
 	}
 
@@ -54,7 +51,7 @@ public class Cliente implements Serializable {
 		this.name = name;
 		this.email = email;
 		this.cpaOuCnpj = cpaOuCnpj;
-		this.tipo = tipo.getCod();
+		this.tipo = (tipo==null) ? null : tipo.getCod();
 	}
 
 	public Integer getId() {
@@ -139,5 +136,4 @@ public class Cliente implements Serializable {
 		return Objects.equals(id, other.id);
 	}
 
-	
 }
