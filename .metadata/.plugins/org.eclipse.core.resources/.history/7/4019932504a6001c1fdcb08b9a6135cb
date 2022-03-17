@@ -12,6 +12,7 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
 import com.example.coursemc.domain.Categoria;
+import com.example.coursemc.domain.Cliente;
 import com.example.coursemc.dto.CategoriaDTO;
 import com.example.coursemc.repositories.CategoriaRepository;
 import com.example.coursemc.services.exceptions.ObjectNotFoundException;
@@ -37,8 +38,7 @@ public class CategoriaService {
 		Categoria newObj = find(obj.getId());
 		updateData(newObj, obj);
 		return repo.save(obj);
-	}
-	
+
 	public void delete(Integer id) {
 		find(id);
 		try {
