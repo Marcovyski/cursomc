@@ -50,6 +50,12 @@
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>
 			<version>6.1.5.Final</version>
+			<!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
+		</dependency>
+		<dependency>
+		    <groupId>org.hibernate.orm</groupId>
+		    <artifactId>hibernate-core</artifactId>
+		    <version>6.0.0.CR2</version>
 		</dependency>
 		
 		
