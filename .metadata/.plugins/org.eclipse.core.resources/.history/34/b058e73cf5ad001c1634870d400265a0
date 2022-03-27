@@ -1,0 +1,48 @@
+package com.example.coursemc;
+
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.coursemc.domain.Categoria;
+import com.example.coursemc.domain.Cidade;
+import com.example.coursemc.domain.Cliente;
+import com.example.coursemc.domain.Endereco;
+import com.example.coursemc.domain.Estado;
+import com.example.coursemc.domain.ItemPedido;
+import com.example.coursemc.domain.Pagamento;
+import com.example.coursemc.domain.PagamentoComBoleto;
+import com.example.coursemc.domain.PagamentoComCartao;
+import com.example.coursemc.domain.Pedido;
+import com.example.coursemc.domain.Produto;
+import com.example.coursemc.domain.enums.EstadoPagamento;
+import com.example.coursemc.domain.enums.TipoCliente;
+import com.example.coursemc.repositories.CategoriaRepository;
+import com.example.coursemc.repositories.CidadeRepository;
+import com.example.coursemc.repositories.ClienteRepository;
+import com.example.coursemc.repositories.EnderecoRepository;
+import com.example.coursemc.repositories.EstadoRepository;
+import com.example.coursemc.repositories.ItemPedidoRepository;
+import com.example.coursemc.repositories.PagamentoRepository;
+import com.example.coursemc.repositories.PedidoRepository;
+import com.example.coursemc.repositories.ProdutoRepository;
+
+@SpringBootApplication
+public class CursomcApplication implements CommandLineRunner{
+	
+
+
+	public static void main(String[] args) {
+		SpringApplication.run(CursomcApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+	
+	}
+}
