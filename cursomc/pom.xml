@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.educaweb.coursemc</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>cursomc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<name>cursomc</name>
 	<description>STS, Hibernate, REST, Ionic, JWT, S3, MySQL, Mongo DB</description>
 	<properties>
 		<java.version>11</java.version>
