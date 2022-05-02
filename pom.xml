@@ -16,9 +16,7 @@
 	<name>cursomc</name>
 	
 	<description>STS, Hibernate, REST, Ionic, JWT, S3, MySQL, Mongo DB</description>
-	<properties>
-		<java.version>11</java.version>
-	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
