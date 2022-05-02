@@ -1,0 +1,13 @@
+mysql://b66e7b1ea24a64:031bd0e0@us-cdbr-east-05.cleardb.net/heroku_44dc900a50740f7?reconnect=true
+mysql://bd1f2985bc41fe:ae51d7d1@us-cdbr-east-05.cleardb.net/heroku_24091de3314144c?reconnect=true
+
+
+host =us-cdbr-east-05.cleardb.net
+user =bd1f2985bc41fe
+Password =ae51d7d1
+Reconnect =heroku_24091de3314144c
+
+
+
+
+mysql --host=us-cdbr-east-05.cleardb.net --user=bd1f2985bc41fe --password=ae51d7d1 --reconnect heroku_24091de3314144c < curso_spring.sql
