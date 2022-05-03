@@ -121,7 +121,6 @@ public class Cliente implements Serializable {
 		this.pedidos = pedidos;
 	}
 	
-	
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
